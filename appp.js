@@ -17,6 +17,10 @@ function addComment() {
 
   // Ajouter le commentaire à la liste des commentaires
   document.getElementById("comments").appendChild(commentElement);
+  if (commentText.length > 500) {
+    alert("Le commentaire ne peut pas dépasser 500 caractères.");
+    return;
+  }
 
   // Effacer le formulaire
   document.getElementById("commentForm").reset();
