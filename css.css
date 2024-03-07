@@ -1,0 +1,109 @@
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+         
+      #commentSection {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        background-color: #ffffff;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      #commentForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .form-row {
+        display: flex;
+        margin-bottom: 10px;
+      align-items: center;
+      }
+    #Name{
+        margin-left: -75px;
+
+        
+     }
+     #LastName{
+      margin-left: 80px;
+     }
+     #lastName{
+      padding: 5px;
+     }
+      .form-row label {
+        width: 100px;
+      margin-left: 10px; 
+      font-size: 10px ;
+      font-weight: bold ;
+      }
+
+      .form-row input{
+        margin-left: 10px;
+        margin-top: -5px;
+        border-radius: 5px;
+      }
+      #firstName{
+        margin-left: -10px;
+      padding: 5px;
+      }
+     
+     #maxText{
+        display: flex;
+        font-size: 8px;
+       margin-left: -160px;
+      }
+   
+    #comment {
+       
+      margin-right: -105px;
+     
+    }
+  
+    .form-row textarea {
+        flex: 1;
+        padding: 15px;
+        border-radius: 5px;
+      margin-bottom: -70px;
+      margin-right: 80px;
+      width: 300px;
+      }
+     
+    
+      #submitButton {
+        background-color: #72B6A7;
+        color: white;
+        padding: 10px;
+        width: 70px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 275px;
+        margin-top: 65px;
+        
+      }
+
+      #submitButton:hover {
+        background-color: darkgreen;
+      }
+
+      #comments {
+        margin-top: 20px;
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .comment {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+   
